@@ -1,0 +1,335 @@
+Crie um site profissional, moderno, minimalista e responsivo para uma pequena empresa de criação de artes digitais e sites chamada “TH WEB DESIGNER”.
+
+Objetivo do site
+
+O objetivo principal é apresentar a empresa, mostrar os serviços oferecidos e facilitar o contato de possíveis clientes pelo WhatsApp.
+
+O site deve transmitir uma imagem de profissionalismo, criatividade, confiança e modernidade, mas sem ficar exageradamente carregado.
+
+Identidade visual
+
+Nome da empresa:
+
+TH WEB DESIGNER
+
+Estilo visual:
+
+- Minimalista
+- Moderno
+- Elegante
+- Profissional
+- Criativo
+- Visual limpo
+- Fácil de navegar
+- Fundo predominantemente branco
+- Tipografia moderna e forte
+- Usar bastante espaço em branco
+- Pequenos detalhes visuais para deixar o site sofisticado
+- Evitar excesso de cores, sombras, gradientes ou elementos desnecessários
+
+Utilize uma paleta de cores profissional, preferencialmente com:
+
+- Branco como cor principal
+- Preto ou cinza escuro para textos
+- Uma cor de destaque moderna para botões e detalhes, como azul, roxo ou azul-violeta
+
+O resultado deve parecer o site de uma empresa profissional de design, mesmo sendo uma pequena empresa.
+
+Estrutura da página
+
+Crie uma landing page de página única, dividida nas seguintes seções:
+
+1. Hero / Início
+
+No topo do site, coloque:
+
+TH WEB DESIGNER
+
+Título principal:
+
+Design que transforma ideias em realidade.
+
+Texto:
+
+Criação de artes digitais e sites modernos para destacar o seu negócio, evento ou projeto.
+
+Adicionar dois botões:
+
+CONHECER SERVIÇOS
+
+e
+
+FALAR NO WHATSAPP
+
+O botão “Falar no WhatsApp” deve abrir diretamente uma conversa no WhatsApp através do número:
+
+5585989582114
+
+Use o link:
+
+https://wa.me/5585989582114
+
+Adicionar um elemento visual relacionado a design, como uma composição abstrata, mockup de tela, cards de projetos ou formas geométricas modernas.
+
+2. Sobre a empresa
+
+Criar uma seção curta apresentando a empresa.
+
+Título:
+
+Criatividade, design e presença digital.
+
+Texto:
+
+A TH WEB DESIGNER cria soluções visuais para pessoas, empresas e projetos que querem se destacar. Do design de uma logo à criação de um site completo, cada projeto é desenvolvido pensando em estética, clareza e impacto.
+
+Não deixar essa seção muito grande.
+
+3. Serviços
+
+Criar uma seção chamada:
+
+O que eu faço
+
+Mostrar os serviços em cards modernos e minimalistas.
+
+Serviços:
+
+LOGOS
+Criação de logos modernas e personalizadas para representar sua marca.
+
+BANNERS
+Banners atrativos para divulgação de produtos, serviços, eventos e redes sociais.
+
+RIFAS
+Criação de artes para rifas, com visual organizado e chamativo.
+
+CONVITES
+Convites personalizados para aniversários e outros momentos especiais.
+
+PANFLETOS
+Panfletos digitais para divulgar sua empresa, produto, serviço ou evento.
+
+SITES
+Criação de sites modernos, responsivos e personalizados para empresas e projetos.
+
+Cada card deve possuir um ícone simples e elegante relacionado ao serviço.
+
+4. Destaque para criação de sites
+
+Criar uma seção especial para destacar o serviço de criação de sites.
+
+Título:
+
+Seu negócio também merece estar na internet.
+
+Texto:
+
+Crio sites modernos, responsivos e personalizados para apresentar sua empresa, divulgar seus serviços e facilitar o contato com seus clientes.
+
+Adicionar botão:
+
+QUERO MEU SITE
+
+Esse botão também deve abrir o WhatsApp:
+
+https://wa.me/5585989582114
+
+Criar uma composição visual mostrando uma prévia de um site em computador e celular.
+
+5. Portfólio
+
+Criar uma seção:
+
+Alguns trabalhos
+
+Adicionar uma grade de projetos com imagens de exemplo.
+
+Como ainda não existem imagens reais do portfólio, utilizar placeholders elegantes ou exemplos fictícios claramente estruturados para que posteriormente possam ser substituídos pelas imagens reais.
+
+O layout deve permitir adicionar facilmente novos trabalhos.
+
+Categorias sugeridas:
+
+- Logos
+- Banners
+- Rifas
+- Convites
+- Panfletos
+- Sites
+
+6. Processo de trabalho
+
+Criar uma pequena seção explicando como funciona o trabalho.
+
+Título:
+
+Como funciona
+
+Mostrar 3 ou 4 etapas:
+
+01 — Você entra em contato
+
+O cliente explica o que precisa.
+
+02 — Definimos a ideia
+
+Conversamos sobre estilo, informações e detalhes do projeto.
+
+03 — Criação
+
+O projeto é desenvolvido de acordo com o que foi combinado.
+
+04 — Entrega
+
+O trabalho final é entregue ao cliente.
+
+Manter essa seção simples e visualmente agradável.
+
+7. Chamada para ação
+
+Antes do formulário, criar uma seção de destaque.
+
+Título:
+
+Tem uma ideia? Vamos colocar ela no papel.
+
+Texto:
+
+Entre em contato e conte o que você precisa. Vamos criar algo que combine com você ou com o seu negócio.
+
+Botão:
+
+FALAR COM A TH WEB DESIGNER
+
+Link:
+
+https://wa.me/5585989582114
+
+8. Formulário de contato
+
+No final da página, criar um formulário bem simples, sem cadastro e sem campos obrigatórios complexos.
+
+Título:
+
+Vamos conversar?
+
+Campos:
+
+- Nome
+- Qual serviço você procura?
+- Mensagem
+
+O campo de serviço pode ser um seletor com:
+
+- Logo
+- Banner
+- Rifa
+- Convite
+- Panfleto
+- Site
+- Outro
+
+Botão:
+
+ENVIAR PELO WHATSAPP
+
+O formulário não deve enviar dados para um banco de dados.
+
+Ao clicar no botão, criar automaticamente uma mensagem e abrir o WhatsApp no número:
+
+5585989582114
+
+Exemplo de mensagem:
+
+“Olá! Meu nome é [NOME]. Tenho interesse em [SERVIÇO].
+
+Minha ideia/necessidade é:
+[MENSAGEM]
+
+Gostaria de saber mais sobre o serviço.”
+
+Abrir a conversa através de:
+
+https://wa.me/5585989582114
+
+Se o usuário não preencher algum campo, ainda assim permitir o envio sempre que possível.
+
+9. Rodapé
+
+Criar um rodapé minimalista contendo:
+
+TH WEB DESIGNER
+
+Design • Sites • Criatividade
+
+Texto:
+
+© 2026 TH Web Designer. Todos os direitos reservados.
+
+Adicionar novamente um pequeno botão ou ícone do WhatsApp direcionando para:
+
+https://wa.me/5585989582114
+
+Experiência do usuário
+
+O site deve ser:
+
+- 100% responsivo
+- Otimizado para celulares
+- Fácil de navegar
+- Rápido
+- Visualmente agradável
+- Com boa hierarquia visual
+- Com botões claramente identificáveis
+- Com animações suaves e discretas
+- Sem excesso de efeitos
+
+Adicionar pequenas animações ao aparecerem os elementos durante a rolagem, mas sem prejudicar a velocidade ou usabilidade.
+
+Criar uma navegação fixa no topo com:
+
+Início | Serviços | Portfólio | Sobre | Contato
+
+No celular, transformar o menu em um menu hambúrguer.
+
+WhatsApp
+
+Todos os principais botões de contato devem direcionar para:
+
+https://wa.me/5585989582114
+
+Sempre que possível, utilizar mensagens pré-preenchidas diferentes de acordo com o botão.
+
+Por exemplo, no botão de criação de site:
+
+“Olá! Tenho interesse em criar um site. Gostaria de saber mais informações.”
+
+No botão de logo:
+
+“Olá! Tenho interesse em criar uma logo. Gostaria de saber mais informações.”
+
+SEO
+
+Adicionar:
+
+Título da página:
+
+TH Web Designer | Criação de Logos, Artes e Sites
+
+Descrição:
+
+TH Web Designer — criação de logos, banners, rifas, convites, panfletos e sites modernos e personalizados. Entre em contato pelo WhatsApp.
+
+Utilizar HTML semântico, boas práticas de acessibilidade e textos alternativos nas imagens.
+
+Resultado esperado
+
+O resultado final deve parecer um site real e profissional de uma agência/estúdio de design, e não apenas um template genérico.
+
+Priorize:
+minimalismo + profissionalismo + criatividade + facilidade de contato.
+
+O principal objetivo é fazer o visitante olhar os serviços, gostar do visual e rapidamente conseguir entrar em contato pelo WhatsApp.
+
+a logo do site esta no mesmo arquivo denominado "logo"
