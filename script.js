@@ -73,12 +73,48 @@
   // ---------- Formulário -> WhatsApp ----------
   const form = document.getElementById('form-contato');
   if (form) {
+    const showError = (field, msg) => {
+      field.classList.add('invalid');
+      let err = field.parentElement.querySelector('.field-error');
+      if (!err) {
+        err = document.createElement('span');
+        err.className = 'field-error';
+        field.parentElement.appendChild(err);
+      }
+      err.textContent = msg;
+    };
+
+    const clearError = (field) => {
+      field.classList.remove('invalid');
+      const err = field.parentElement.querySelector('.field-error');
+      if (err) err.remove();
+    };
+
+    // Limpa erro ao interagir com o campo
+    ['nome', 'servico', 'mensagem'].forEach((name) => {
+      const field = form.elements[name];
+      if (!field) return;
+      const evt = field.tagName === 'SELECT' ? 'change' : 'input';
+      field.addEventListener(evt, () => clearError(field));
+    });
+
     form.addEventListener('submit', (e) => {
       e.preventDefault();
 
-      const nome = (form.nome.value || '').trim() || '[NOME]';
-      const servico = (form.servico.value || '').trim() || '[SERVIÇO]';
-      const mensagem = (form.mensagem.value || '').trim() || '[MENSAGEM]';
+      let hasError = false;
+      const nome = (form.nome.value || '').trim();
+      const servico = (form.servico.value || '').trim();
+      const mensagem = (form.mensagem.value || '').trim();
+
+      if (!nome) { showError(form.nome, 'Por favor, preencha seu nome.'); hasError = true; }
+      if (!servico) { showError(form.servico, 'Por favor, selecione um serviço.'); hasError = true; }
+      if (!mensagem) { showError(form.mensagem, 'Por favor, escreva sua mensagem.'); hasError = true; }
+
+      if (hasError) {
+        const firstInvalid = form.querySelector('.invalid');
+        if (firstInvalid) firstInvalid.focus();
+        return;
+      }
 
       const texto = `Olá! Meu nome é ${nome}. Tenho interesse em ${servico}.\n\nMinha ideia/necessidade é:\n${mensagem}\n\nGostaria de saber mais sobre o serviço.`;
 

@@ -102,7 +102,7 @@ p { margin: 0; }
 .brand-logo {
   width: 38px;
   height: 38px;
-  border-radius: 10px;
+  border-radius: 50%;
   object-fit: cover;
   box-shadow: var(--shadow-sm);
 }
@@ -186,6 +186,15 @@ p { margin: 0; }
 .btn-ghost:hover { background: var(--bg-muted); border-color: var(--ink); }
 .btn-lg { padding: 15px 26px; font-size: 15px; }
 .btn-block { width: 100%; }
+
+.btn-instagram {
+  background: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+  color: #fff;
+  border: none;
+  margin-top: 12px;
+  box-shadow: 0 6px 18px -8px rgba(220, 39, 67, 0.5);
+}
+.btn-instagram:hover { transform: translateY(-1px); filter: brightness(1.05); }
 
 /* ============================================
    HERO
@@ -696,6 +705,23 @@ p { margin: 0; }
 .field textarea::placeholder { color: var(--text-mute); }
 .field select { appearance: none; background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='8' viewBox='0 0 12 8'%3E%3Cpath fill='none' stroke='%235b5b66' stroke-width='1.6' d='M1 1l5 5 5-5'/%3E%3C/svg%3E"); background-repeat: no-repeat; background-position: right 16px center; padding-right: 36px; }
 
+.req { color: #dc2743; margin-left: 2px; }
+
+.field input.invalid,
+.field select.invalid,
+.field textarea.invalid {
+  border-color: #dc2743;
+  box-shadow: 0 0 0 3px rgba(220, 39, 67, 0.12);
+}
+
+.field-error {
+  display: block;
+  font-size: 0.82rem;
+  color: #dc2743;
+  font-weight: 500;
+  margin-top: 2px;
+}
+
 /* ============================================
    FOOTER
    ============================================ */
@@ -778,6 +804,25 @@ p { margin: 0; }
 }
 
 /* ============================================
+   INSTAGRAM FLOAT
+   ============================================ */
+.ig-float {
+  position: fixed;
+  bottom: 22px; right: 90px;
+  width: 56px; height: 56px;
+  border-radius: 50%;
+  background: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+  color: #fff;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 10px 24px -6px rgba(220, 39, 67, 0.5);
+  z-index: 90;
+  transition: transform .2s var(--ease);
+}
+.ig-float:hover { transform: scale(1.06); }
+
+/* ============================================
    REVEAL ANIMATION
    ============================================ */
 .reveal {
@@ -846,6 +891,7 @@ p { margin: 0; }
   .destaque-visual { height: 340px; }
   .device-mobile { width: 38%; }
   .wa-float { width: 52px; height: 52px; bottom: 16px; right: 16px; }
+  .ig-float { width: 52px; height: 52px; bottom: 16px; right: 78px; }
 }
 
 @media (max-width: 420px) {
